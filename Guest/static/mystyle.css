@@ -1,0 +1,93 @@
+/* Modern and Classy Table Styles */
+#tab {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tab td, #tab th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+#tab a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#tab a:hover {
+  text-decoration: underline;
+}
+
+#tab tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+#tab tr:hover {
+  background-color: #e9ecef;
+}
+
+#tab th {
+  padding: 14px 12px;
+  text-align: left;
+  background-color: #343a40;
+  color: white;
+  font-weight: 600;
+}
+
+/* Modern Input Fields */
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date],
+select {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 8px 0;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Modern Buttons */
+input[type=submit],
+input[type=reset] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 30px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+input[type=reset] {
+  background-color: #6c757d;
+}
+
+input[type=reset]:hover {
+  background-color: #5a6268;
+}
